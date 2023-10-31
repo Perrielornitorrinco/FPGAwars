@@ -1,7 +1,7 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-// Date        : Mon Oct 30 12:38:46 2023
+// Date        : Tue Oct 31 10:20:44 2023
 // Host        : DESKTOP-SDLH1IQ running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/ip/Main_axi_quad_spi_0_0/Main_axi_quad_spi_0_0_sim_netlist.v
@@ -186,7 +186,7 @@ module Main_axi_quad_spi_0_0
   (* C_NEW_SEQ_EN = "1" *) 
   (* C_NUM_SS_BITS = "1" *) 
   (* C_NUM_TRANSFER_BITS = "8" *) 
-  (* C_SCK_RATIO = "112" *) 
+  (* C_SCK_RATIO = "128" *) 
   (* C_SELECT_XPM = "0" *) 
   (* C_SHARED_STARTUP = "0" *) 
   (* C_SPI_MEMORY = "1" *) 
@@ -2678,7 +2678,7 @@ endmodule
 (* Async_Clk = "0" *) (* C_BYTE_LEVEL_INTERRUPT_EN = "0" *) (* C_DUAL_QUAD_MODE = "0" *) 
 (* C_FAMILY = "zynq" *) (* C_FIFO_DEPTH = "16" *) (* C_INSTANCE = "axi_quad_spi_inst" *) 
 (* C_LSB_STUP = "0" *) (* C_NEW_SEQ_EN = "1" *) (* C_NUM_SS_BITS = "1" *) 
-(* C_NUM_TRANSFER_BITS = "8" *) (* C_SCK_RATIO = "112" *) (* C_SELECT_XPM = "0" *) 
+(* C_NUM_TRANSFER_BITS = "8" *) (* C_SCK_RATIO = "128" *) (* C_SELECT_XPM = "0" *) 
 (* C_SHARED_STARTUP = "0" *) (* C_SPI_MEMORY = "1" *) (* C_SPI_MEM_ADDR_BITS = "24" *) 
 (* C_SPI_MODE = "0" *) (* C_SUB_FAMILY = "zynq" *) (* C_S_AXI4_ADDR_WIDTH = "24" *) 
 (* C_S_AXI4_BASEADDR = "32'b11111111111111111111111111111111" *) (* C_S_AXI4_DATA_WIDTH = "32" *) (* C_S_AXI4_HIGHADDR = "32'b00000000000000000000000000000000" *) 
@@ -6735,6 +6735,7 @@ module Main_axi_quad_spi_0_0_qspi_mode_0_module
         .I3(\OTHER_RATIO_GENERATE.Ratio_Count_reg [5]),
         .I4(\OTHER_RATIO_GENERATE.Ratio_Count_reg [2]),
         .O(minusOp[4]));
+  (* SOFT_HLUTNM = "soft_lutpair76" *) 
   LUT4 #(
     .INIT(16'hFE01)) 
     \OTHER_RATIO_GENERATE.Ratio_Count[2]_i_1 
@@ -6743,7 +6744,7 @@ module Main_axi_quad_spi_0_0_qspi_mode_0_module
         .I2(\OTHER_RATIO_GENERATE.Ratio_Count_reg [5]),
         .I3(\OTHER_RATIO_GENERATE.Ratio_Count_reg [2]),
         .O(minusOp[3]));
-  (* SOFT_HLUTNM = "soft_lutpair76" *) 
+  (* SOFT_HLUTNM = "soft_lutpair85" *) 
   LUT3 #(
     .INIT(8'hE1)) 
     \OTHER_RATIO_GENERATE.Ratio_Count[3]_i_1 
@@ -6758,7 +6759,6 @@ module Main_axi_quad_spi_0_0_qspi_mode_0_module
        (.I0(\OTHER_RATIO_GENERATE.Ratio_Count_reg [5]),
         .I1(\OTHER_RATIO_GENERATE.Ratio_Count_reg [4]),
         .O(\OTHER_RATIO_GENERATE.Ratio_Count[4]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair85" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \OTHER_RATIO_GENERATE.Ratio_Count[5]_i_1 
@@ -6776,12 +6776,12 @@ module Main_axi_quad_spi_0_0_qspi_mode_0_module
         .D(minusOp[4]),
         .Q(\OTHER_RATIO_GENERATE.Ratio_Count_reg [1]),
         .S(\OTHER_RATIO_GENERATE.Ratio_Count[0]_i_1_n_0 ));
-  FDRE \OTHER_RATIO_GENERATE.Ratio_Count_reg[2] 
+  FDSE \OTHER_RATIO_GENERATE.Ratio_Count_reg[2] 
        (.C(ext_spi_clk),
         .CE(1'b1),
         .D(minusOp[3]),
         .Q(\OTHER_RATIO_GENERATE.Ratio_Count_reg [2]),
-        .R(\OTHER_RATIO_GENERATE.Ratio_Count[0]_i_1_n_0 ));
+        .S(\OTHER_RATIO_GENERATE.Ratio_Count[0]_i_1_n_0 ));
   FDSE \OTHER_RATIO_GENERATE.Ratio_Count_reg[3] 
        (.C(ext_spi_clk),
         .CE(1'b1),

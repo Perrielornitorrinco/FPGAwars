@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Mon Oct 30 12:38:51 2023
-# Process ID: 1640
+# Start of session at: Tue Oct 31 10:31:20 2023
+# Process ID: 21732
 # Current directory: C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1
 # Command line: vivado.exe -log Main_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main_wrapper.tcl
 # Log file: C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/Main_wrapper.vds
@@ -11,11 +11,11 @@
 # Running On: DESKTOP-SDLH1IQ, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 8503 MB
 #-----------------------------------------------------------
 source Main_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 396.652 ; gain = 62.336
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 395.609 ; gain = 60.961
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
-add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 485.234 ; gain = 88.582
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 485.133 ; gain = 89.523
 Command: read_checkpoint -auto_incremental -incremental C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/utils_1/imports/synth_1/Main_wrapper.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/utils_1/imports/synth_1/Main_wrapper.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -28,62 +28,62 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1884
+INFO: [Synth 8-7075] Helper process launched with PID 30356
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1304.152 ; gain = 410.430
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1304.191 ; gain = 409.188
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'Main_wrapper' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/hdl/Main_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Main_wrapper' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/hdl/Main_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'Main' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:12]
-INFO: [Synth 8-6157] synthesizing module 'Main_axi_quad_spi_0_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_axi_quad_spi_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Main_axi_quad_spi_0_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_axi_quad_spi_0_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_axi_quad_spi_0_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_axi_quad_spi_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'ip2intc_irpt' of module 'Main_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:185]
 WARNING: [Synth 8-7023] instance 'axi_quad_spi_0' of module 'Main_axi_quad_spi_0_0' has 33 connections declared, but only 32 given [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:185]
-INFO: [Synth 8-6157] synthesizing module 'Main_processing_system7_0_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_processing_system7_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Main_processing_system7_0_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_processing_system7_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_processing_system7_0_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_processing_system7_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_processing_system7_0_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_processing_system7_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'Main_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:218]
 WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'Main_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:218]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'Main_processing_system7_0_0' has 65 connections declared, but only 63 given [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:218]
 INFO: [Synth 8-6157] synthesizing module 'Main_ps7_0_axi_periph_0' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:373]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_BGD2QA' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:678]
-INFO: [Synth 8-6157] synthesizing module 'Main_auto_pc_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_auto_pc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Main_auto_pc_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_auto_pc_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_auto_pc_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_auto_pc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_auto_pc_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_auto_pc_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'Main_auto_pc_0' is unconnected for instance 'auto_pc' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:913]
 WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'Main_auto_pc_0' is unconnected for instance 'auto_pc' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:913]
 WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Main_auto_pc_0' has 59 connections declared, but only 57 given [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:913]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_BGD2QA' (0#1) [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:678]
 INFO: [Synth 8-6155] done synthesizing module 'Main_ps7_0_axi_periph_0' (0#1) [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:373]
-INFO: [Synth 8-6157] synthesizing module 'Main_rst_ps7_0_100M_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_rst_ps7_0_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Main_rst_ps7_0_100M_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_rst_ps7_0_100M_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_rst_ps7_0_100M_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_rst_ps7_0_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_rst_ps7_0_100M_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_rst_ps7_0_100M_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'Main_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:344]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'Main_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:344]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'Main_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:344]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'Main_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:344]
 WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'Main_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:344]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:351]
-INFO: [Synth 8-6157] synthesizing module 'Main_system_ila_0_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_system_ila_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Main_system_ila_0_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-1640-DESKTOP-SDLH1IQ/realtime/Main_system_ila_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_system_ila_0_0' [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_system_ila_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_system_ila_0_0' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/.Xil/Vivado-21732-DESKTOP-SDLH1IQ/realtime/Main_system_ila_0_0_stub.v:5]
 INFO: [Synth 8-6155] done synthesizing module 'Main' (0#1) [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/synth/Main.v:12]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
-INFO: [Synth 8-6155] done synthesizing module 'Main_wrapper' (0#1) [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/hdl/Main_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'Main_wrapper' (0#1) [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/hdl/Main_wrapper.v:12]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_BGD2QA is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_BGD2QA is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ACLK in module Main_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ARESETN in module Main_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1401.559 ; gain = 507.836
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1400.051 ; gain = 505.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1401.559 ; gain = 507.836
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1400.051 ; gain = 505.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1401.559 ; gain = 507.836
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1400.051 ; gain = 505.047
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1401.559 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1400.051 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -102,34 +102,33 @@ Parsing XDC File [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main
 Finished Parsing XDC File [c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/ip/Main_system_ila_0_0/Main_system_ila_0_0/Main_system_ila_0_0_in_context.xdc] for cell 'Main_i/system_ila_0'
 Parsing XDC File [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc]
 WARNING: [Vivado 12-584] No ports matched 'spi_rtl_ss_io[0]'. [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc:103]
-WARNING: [Vivado 12-584] No ports matched 'spi_rtl_sck_io'. [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc:104]
-WARNING: [Vivado 12-584] No ports matched 'spi_rtl_io1_io'. [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc:105]
-WARNING: [Vivado 12-584] No ports matched 'spi_rtl_io0_io'. [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc:106]
 Finished Parsing XDC File [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Main_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/constrs_1/imports/masterXDC/PYNQ-Z2 v1.0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1432.633 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1428.184 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 4 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 4 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1432.633 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1428.184 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Main_i/axi_quad_spi_0' at clock pin 'ext_spi_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -402,10 +401,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for Main_i/ps7_0_axi_periph. (constra
 Applied set_property KEEP_HIERARCHY = SOFT for Main_i/rst_ps7_0_100M. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Main_i/system_ila_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -432,25 +431,25 @@ WARNING: [Synth 8-7129] Port ARESETN in module Main_ps7_0_axi_periph_0 is either
 WARNING: [Synth 8-7129] Port M00_ACLK in module Main_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M00_ARESETN in module Main_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -468,37 +467,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -527,27 +526,27 @@ Report Cell Usage:
 |6     |IOBUF                     |     4|
 +------+--------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1428.195 ; gain = 533.191
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1433.535 ; gain = 507.836
-Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1433.535 ; gain = 539.812
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:46 . Memory (MB): peak = 1428.195 ; gain = 505.047
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 1428.195 ; gain = 533.191
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1433.535 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1428.195 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1443.465 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1433.262 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 4 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 4 instances
 
-Synth Design complete, checksum: 741daf61
+Synth Design complete, checksum: 325d5af4
 INFO: [Common 17-83] Releasing license: Synthesis
-47 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+48 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1443.465 ; gain = 949.277
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 1433.262 ; gain = 938.203
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Irene/Desktop/FPGAWars/FPGAWars.runs/synth_1/Main_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Main_wrapper_utilization_synth.rpt -pb Main_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Oct 30 12:40:01 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 31 10:32:45 2023...

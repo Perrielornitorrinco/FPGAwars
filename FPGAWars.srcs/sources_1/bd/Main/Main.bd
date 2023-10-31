@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xBB59BDB1695D4DC3",
+      "boundary_crc": "0xD44E0BC6EE267F25",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../FPGAWars.gen/sources_1/bd/Main",
       "name": "Main",
@@ -190,57 +190,57 @@
           }
         }
       },
-      "spi": {
+      "spi_rtl": {
         "mode": "Master",
         "vlnv_bus_definition": "xilinx.com:interface:spi:1.0",
         "vlnv": "xilinx.com:interface:spi_rtl:1.0",
         "port_maps": {
           "IO0_I": {
-            "physical_name": "spi_io0_i",
+            "physical_name": "spi_rtl_io0_i",
             "direction": "I"
           },
           "IO0_O": {
-            "physical_name": "spi_io0_o",
+            "physical_name": "spi_rtl_io0_o",
             "direction": "O"
           },
           "IO0_T": {
-            "physical_name": "spi_io0_t",
+            "physical_name": "spi_rtl_io0_t",
             "direction": "O"
           },
           "IO1_I": {
-            "physical_name": "spi_io1_i",
+            "physical_name": "spi_rtl_io1_i",
             "direction": "I"
           },
           "IO1_O": {
-            "physical_name": "spi_io1_o",
+            "physical_name": "spi_rtl_io1_o",
             "direction": "O"
           },
           "IO1_T": {
-            "physical_name": "spi_io1_t",
+            "physical_name": "spi_rtl_io1_t",
             "direction": "O"
           },
           "SCK_I": {
-            "physical_name": "spi_sck_i",
+            "physical_name": "spi_rtl_sck_i",
             "direction": "I"
           },
           "SCK_O": {
-            "physical_name": "spi_sck_o",
+            "physical_name": "spi_rtl_sck_o",
             "direction": "O"
           },
           "SCK_T": {
-            "physical_name": "spi_sck_t",
+            "physical_name": "spi_rtl_sck_t",
             "direction": "O"
           },
           "SS_I": {
-            "physical_name": "spi_ss_i",
+            "physical_name": "spi_rtl_ss_i",
             "direction": "I"
           },
           "SS_O": {
-            "physical_name": "spi_ss_o",
+            "physical_name": "spi_rtl_ss_o",
             "direction": "O"
           },
           "SS_T": {
-            "physical_name": "spi_ss_t",
+            "physical_name": "spi_rtl_ss_t",
             "direction": "O"
           }
         }
@@ -1973,7 +1973,7 @@
             "value": "16"
           },
           "Multiples16": {
-            "value": "7"
+            "value": "8"
           },
           "QSPI_BOARD_INTERFACE": {
             "value": "spi"
@@ -2219,7 +2219,7 @@
     "interface_nets": {
       "axi_quad_spi_0_SPI_0": {
         "interface_ports": [
-          "spi",
+          "spi_rtl",
           "axi_quad_spi_0/SPI_0"
         ]
       },

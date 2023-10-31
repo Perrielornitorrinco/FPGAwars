@@ -1,7 +1,7 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
--- Date        : Mon Oct 30 12:38:46 2023
+-- Date        : Tue Oct 31 10:20:44 2023
 -- Host        : DESKTOP-SDLH1IQ running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/ip/Main_axi_quad_spi_0_0/Main_axi_quad_spi_0_0_sim_netlist.vhdl
@@ -2557,9 +2557,9 @@ architecture STRUCTURE of Main_axi_quad_spi_0_0_qspi_mode_0_module is
   attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Count_trigger_d1_i_1\ : label is "soft_lutpair81";
   attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Count_trigger_i_1\ : label is "soft_lutpair81";
   attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Ratio_Count[1]_i_1\ : label is "soft_lutpair76";
-  attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Ratio_Count[3]_i_1\ : label is "soft_lutpair76";
+  attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Ratio_Count[2]_i_1\ : label is "soft_lutpair76";
+  attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Ratio_Count[3]_i_1\ : label is "soft_lutpair85";
   attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Ratio_Count[4]_i_1\ : label is "soft_lutpair85";
-  attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Ratio_Count[5]_i_1\ : label is "soft_lutpair85";
   attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.Serial_Dout_i_5\ : label is "soft_lutpair80";
   attribute SOFT_HLUTNM of \OTHER_RATIO_GENERATE.sck_o_int_i_3\ : label is "soft_lutpair75";
   attribute IOB : string;
@@ -2985,13 +2985,13 @@ begin
       Q => \OTHER_RATIO_GENERATE.Ratio_Count_reg\(1),
       S => \OTHER_RATIO_GENERATE.Ratio_Count[0]_i_1_n_0\
     );
-\OTHER_RATIO_GENERATE.Ratio_Count_reg[2]\: unisim.vcomponents.FDRE
+\OTHER_RATIO_GENERATE.Ratio_Count_reg[2]\: unisim.vcomponents.FDSE
      port map (
       C => ext_spi_clk,
       CE => '1',
       D => minusOp(3),
       Q => \OTHER_RATIO_GENERATE.Ratio_Count_reg\(2),
-      R => \OTHER_RATIO_GENERATE.Ratio_Count[0]_i_1_n_0\
+      S => \OTHER_RATIO_GENERATE.Ratio_Count[0]_i_1_n_0\
     );
 \OTHER_RATIO_GENERATE.Ratio_Count_reg[3]\: unisim.vcomponents.FDSE
      port map (
@@ -19901,7 +19901,7 @@ entity Main_axi_quad_spi_0_0_axi_quad_spi is
   attribute C_NUM_TRANSFER_BITS : integer;
   attribute C_NUM_TRANSFER_BITS of Main_axi_quad_spi_0_0_axi_quad_spi : entity is 8;
   attribute C_SCK_RATIO : integer;
-  attribute C_SCK_RATIO of Main_axi_quad_spi_0_0_axi_quad_spi : entity is 112;
+  attribute C_SCK_RATIO of Main_axi_quad_spi_0_0_axi_quad_spi : entity is 128;
   attribute C_SELECT_XPM : integer;
   attribute C_SELECT_XPM of Main_axi_quad_spi_0_0_axi_quad_spi : entity is 0;
   attribute C_SHARED_STARTUP : integer;
@@ -20203,7 +20203,7 @@ architecture STRUCTURE of Main_axi_quad_spi_0_0 is
   attribute C_NUM_TRANSFER_BITS : integer;
   attribute C_NUM_TRANSFER_BITS of U0 : label is 8;
   attribute C_SCK_RATIO : integer;
-  attribute C_SCK_RATIO of U0 : label is 112;
+  attribute C_SCK_RATIO of U0 : label is 128;
   attribute C_SELECT_XPM : integer;
   attribute C_SELECT_XPM of U0 : label is 0;
   attribute C_SHARED_STARTUP : integer;

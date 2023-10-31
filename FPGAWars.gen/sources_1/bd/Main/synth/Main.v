@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Mon Oct 30 12:36:22 2023
+//Date        : Tue Oct 31 10:30:53 2023
 //Host        : DESKTOP-SDLH1IQ running 64-bit major release  (build 9200)
 //Command     : generate_target Main.bd
 //Design      : Main
@@ -32,18 +32,18 @@ module Main
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
-    spi_io0_i,
-    spi_io0_o,
-    spi_io0_t,
-    spi_io1_i,
-    spi_io1_o,
-    spi_io1_t,
-    spi_sck_i,
-    spi_sck_o,
-    spi_sck_t,
-    spi_ss_i,
-    spi_ss_o,
-    spi_ss_t);
+    spi_rtl_io0_i,
+    spi_rtl_io0_o,
+    spi_rtl_io0_t,
+    spi_rtl_io1_i,
+    spi_rtl_io1_o,
+    spi_rtl_io1_t,
+    spi_rtl_sck_i,
+    spi_rtl_sck_o,
+    spi_rtl_sck_t,
+    spi_rtl_ss_i,
+    spi_rtl_ss_o,
+    spi_rtl_ss_t);
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR ADDR" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DDR, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250" *) inout [14:0]DDR_addr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR BA" *) inout [2:0]DDR_ba;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR CAS_N" *) inout DDR_cas_n;
@@ -65,18 +65,18 @@ module Main
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_CLK" *) inout FIXED_IO_ps_clk;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB" *) inout FIXED_IO_ps_porb;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB" *) inout FIXED_IO_ps_srstb;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO0_I" *) input spi_io0_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO0_O" *) output spi_io0_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO0_T" *) output spi_io0_t;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO1_I" *) input spi_io1_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO1_O" *) output spi_io1_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO1_T" *) output spi_io1_t;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi SCK_I" *) input spi_sck_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi SCK_O" *) output spi_sck_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi SCK_T" *) output spi_sck_t;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi SS_I" *) input spi_ss_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi SS_O" *) output spi_ss_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi SS_T" *) output spi_ss_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) input spi_rtl_io0_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_io0_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_io0_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) input spi_rtl_io1_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_io1_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_io1_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) input spi_rtl_sck_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_sck_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_sck_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) input spi_rtl_ss_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_ss_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi_rtl " *) output spi_rtl_ss_t;
 
   wire axi_quad_spi_0_SPI_0_IO0_I;
   wire axi_quad_spi_0_SPI_0_IO0_O;
@@ -170,18 +170,18 @@ module Main
   (* CONN_BUS_INFO = "ps7_0_axi_periph_M00_AXI xilinx.com:interface:aximm:1.0 AXI4LITE WVALID" *) (* DONT_TOUCH *) wire ps7_0_axi_periph_M00_AXI_WVALID;
   wire [0:0]rst_ps7_0_100M_peripheral_aresetn;
 
-  assign axi_quad_spi_0_SPI_0_IO0_I = spi_io0_i;
-  assign axi_quad_spi_0_SPI_0_IO1_I = spi_io1_i;
-  assign axi_quad_spi_0_SPI_0_SCK_I = spi_sck_i;
-  assign axi_quad_spi_0_SPI_0_SS_I = spi_ss_i;
-  assign spi_io0_o = axi_quad_spi_0_SPI_0_IO0_O;
-  assign spi_io0_t = axi_quad_spi_0_SPI_0_IO0_T;
-  assign spi_io1_o = axi_quad_spi_0_SPI_0_IO1_O;
-  assign spi_io1_t = axi_quad_spi_0_SPI_0_IO1_T;
-  assign spi_sck_o = axi_quad_spi_0_SPI_0_SCK_O;
-  assign spi_sck_t = axi_quad_spi_0_SPI_0_SCK_T;
-  assign spi_ss_o = axi_quad_spi_0_SPI_0_SS_O;
-  assign spi_ss_t = axi_quad_spi_0_SPI_0_SS_T;
+  assign axi_quad_spi_0_SPI_0_IO0_I = spi_rtl_io0_i;
+  assign axi_quad_spi_0_SPI_0_IO1_I = spi_rtl_io1_i;
+  assign axi_quad_spi_0_SPI_0_SCK_I = spi_rtl_sck_i;
+  assign axi_quad_spi_0_SPI_0_SS_I = spi_rtl_ss_i;
+  assign spi_rtl_io0_o = axi_quad_spi_0_SPI_0_IO0_O;
+  assign spi_rtl_io0_t = axi_quad_spi_0_SPI_0_IO0_T;
+  assign spi_rtl_io1_o = axi_quad_spi_0_SPI_0_IO1_O;
+  assign spi_rtl_io1_t = axi_quad_spi_0_SPI_0_IO1_T;
+  assign spi_rtl_sck_o = axi_quad_spi_0_SPI_0_SCK_O;
+  assign spi_rtl_sck_t = axi_quad_spi_0_SPI_0_SCK_T;
+  assign spi_rtl_ss_o = axi_quad_spi_0_SPI_0_SS_O;
+  assign spi_rtl_ss_t = axi_quad_spi_0_SPI_0_SS_T;
   Main_axi_quad_spi_0_0 axi_quad_spi_0
        (.ext_spi_clk(processing_system7_0_FCLK_CLK0),
         .io0_i(axi_quad_spi_0_SPI_0_IO0_I),

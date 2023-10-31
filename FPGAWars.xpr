@@ -98,11 +98,11 @@
         <CompFileExtendedInfo CompFileName="Main.bd" FileRelPathName="ip/Main_axi_quad_spi_0_0/Main_axi_quad_spi_0_0.xci">
           <Proxy FileSetName="Main_axi_quad_spi_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Main.bd" FileRelPathName="ip/Main_rst_ps7_0_100M_0/Main_rst_ps7_0_100M_0.xci">
-          <Proxy FileSetName="Main_rst_ps7_0_100M_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Main.bd" FileRelPathName="ip/Main_processing_system7_0_0/Main_processing_system7_0_0.xci">
           <Proxy FileSetName="Main_processing_system7_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Main.bd" FileRelPathName="ip/Main_rst_ps7_0_100M_0/Main_rst_ps7_0_100M_0.xci">
+          <Proxy FileSetName="Main_rst_ps7_0_100M_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/Main/hdl/Main_wrapper.v">
@@ -214,9 +214,7 @@
     </Run>
     <Run Id="Main_axi_quad_spi_0_0_synth_1" Type="Ft3:Synth" SrcSet="Main_axi_quad_spi_0_0" Part="xc7z020clg400-1" ConstrsSet="Main_axi_quad_spi_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Main_axi_quad_spi_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Main_axi_quad_spi_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Main_axi_quad_spi_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -226,9 +224,7 @@
     </Run>
     <Run Id="Main_rst_ps7_0_100M_0_synth_1" Type="Ft3:Synth" SrcSet="Main_rst_ps7_0_100M_0" Part="xc7z020clg400-1" ConstrsSet="Main_rst_ps7_0_100M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Main_rst_ps7_0_100M_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Main_rst_ps7_0_100M_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Main_rst_ps7_0_100M_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -238,9 +234,7 @@
     </Run>
     <Run Id="Main_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="Main_processing_system7_0_0" Part="xc7z020clg400-1" ConstrsSet="Main_processing_system7_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Main_processing_system7_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Main_processing_system7_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Main_processing_system7_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -268,9 +262,7 @@
     </Run>
     <Run Id="Main_axi_quad_spi_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Main_axi_quad_spi_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Main_axi_quad_spi_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Main_axi_quad_spi_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Main_axi_quad_spi_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -287,9 +279,7 @@
     </Run>
     <Run Id="Main_rst_ps7_0_100M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Main_rst_ps7_0_100M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Main_rst_ps7_0_100M_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Main_rst_ps7_0_100M_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Main_rst_ps7_0_100M_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -306,9 +296,7 @@
     </Run>
     <Run Id="Main_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Main_processing_system7_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Main_processing_system7_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Main_processing_system7_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Main_processing_system7_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

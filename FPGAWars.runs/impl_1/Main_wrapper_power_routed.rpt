@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Mon Oct 30 12:43:30 2023
+| Date             : Tue Oct 31 10:36:13 2023
 | Host             : DESKTOP-SDLH1IQ running 64-bit major release  (build 9200)
 | Command          : report_power -file Main_wrapper_power_routed.rpt -pb Main_wrapper_power_summary_routed.pb -rpx Main_wrapper_power_routed.rpx
 | Design           : Main_wrapper
@@ -54,14 +54,14 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.017 |        4 |       --- |             --- |
 | Slice Logic              |     0.004 |     7886 |       --- |             --- |
-|   LUT as Logic           |     0.003 |     2246 |     53200 |            4.22 |
+|   LUT as Logic           |     0.004 |     2246 |     53200 |            4.22 |
 |   Register               |    <0.001 |     3853 |    106400 |            3.62 |
 |   LUT as Shift Register  |    <0.001 |      255 |     17400 |            1.47 |
 |   CARRY4                 |    <0.001 |       74 |     13300 |            0.56 |
 |   LUT as Distributed RAM |    <0.001 |       36 |     17400 |            0.21 |
 |   F7/F8 Muxes            |    <0.001 |       77 |     53200 |            0.14 |
 |   Others                 |     0.000 |      628 |       --- |             --- |
-| Signals                  |     0.005 |     5323 |       --- |             --- |
+| Signals                  |     0.005 |     5330 |       --- |             --- |
 | Block RAM                |     0.002 |        3 |       140 |            2.14 |
 | I/O                      |     0.001 |        4 |       125 |            3.20 |
 | PS7                      |     1.256 |        1 |       --- |             --- |
@@ -154,7 +154,7 @@ Table of Contents
 | Name                     | Power (W) |
 +--------------------------+-----------+
 | Main_wrapper             |     1.285 |
-|   Main_i                 |     1.281 |
+|   Main_i                 |     1.280 |
 |     axi_quad_spi_0       |     0.005 |
 |       U0                 |     0.005 |
 |     processing_system7_0 |     1.256 |

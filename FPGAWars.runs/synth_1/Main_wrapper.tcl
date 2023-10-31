@@ -88,7 +88,7 @@ set_property ip_output_repo c:/Users/Irene/Desktop/FPGAWars/FPGAWars.cache/ip [c
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/hdl/Main_wrapper.v
+read_verilog -library xil_defaultlib C:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/hdl/Main_wrapper.v
 add_files C:/Users/Irene/Desktop/FPGAWars/FPGAWars.srcs/sources_1/bd/Main/Main.bd
 set_property used_in_implementation false [get_files -all c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/ip/Main_processing_system7_0_0/Main_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Irene/Desktop/FPGAWars/FPGAWars.gen/sources_1/bd/Main/ip/Main_axi_quad_spi_0_0/Main_axi_quad_spi_0_0_board.xdc]

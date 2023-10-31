@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon Oct 30 12:38:46 2023
+| Date         : Tue Oct 31 10:20:44 2023
 | Host         : DESKTOP-SDLH1IQ running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Main_axi_quad_spi_0_0_utilization_synth.rpt -pb Main_axi_quad_spi_0_0_utilization_synth.pb
 | Design       : Main_axi_quad_spi_0_0
@@ -60,8 +60,8 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 33    |          Yes |         Set |            - |
-| 604   |          Yes |       Reset |            - |
+| 34    |          Yes |         Set |            - |
+| 603   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -150,13 +150,13 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |  604 |        Flop & Latch |
+| FDRE     |  603 |        Flop & Latch |
 | LUT6     |  128 |                 LUT |
 | LUT5     |  122 |                 LUT |
 | LUT2     |  101 |                 LUT |
 | LUT3     |   80 |                 LUT |
 | LUT4     |   76 |                 LUT |
-| FDSE     |   33 |        Flop & Latch |
+| FDSE     |   34 |        Flop & Latch |
 | RAMD32   |   20 |  Distributed Memory |
 | LUT1     |   17 |                 LUT |
 | RAMS32   |    4 |  Distributed Memory |

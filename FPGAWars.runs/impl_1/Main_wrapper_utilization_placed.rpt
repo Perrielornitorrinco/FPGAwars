@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon Oct 30 12:42:22 2023
+| Date         : Tue Oct 31 10:35:00 2023
 | Host         : DESKTOP-SDLH1IQ running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Main_wrapper_utilization_placed.rpt -pb Main_wrapper_utilization_placed.pb
 | Design       : Main_wrapper
@@ -60,8 +60,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 41    |          Yes |           - |          Set |
 | 184   |          Yes |           - |        Reset |
-| 67    |          Yes |         Set |            - |
-| 3564  |          Yes |       Reset |            - |
+| 68    |          Yes |         Set |            - |
+| 3563  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -71,9 +71,9 @@ Table of Contents
 +--------------------------------------------+------+-------+------------+-----------+-------+
 |                  Site Type                 | Used | Fixed | Prohibited | Available | Util% |
 +--------------------------------------------+------+-------+------------+-----------+-------+
-| Slice                                      | 1225 |     0 |          0 |     13300 |  9.21 |
-|   SLICEL                                   |  832 |     0 |            |           |       |
-|   SLICEM                                   |  393 |     0 |            |           |       |
+| Slice                                      | 1233 |     0 |          0 |     13300 |  9.27 |
+|   SLICEL                                   |  835 |     0 |            |           |       |
+|   SLICEM                                   |  398 |     0 |            |           |       |
 | LUT as Logic                               | 2246 |     0 |          0 |     53200 |  4.22 |
 |   using O5 output only                     |    0 |       |            |           |       |
 |   using O6 output only                     | 1741 |       |            |           |       |
@@ -88,10 +88,10 @@ Table of Contents
 |     using O6 output only                   |   76 |       |            |           |       |
 |     using O5 and O6                        |  176 |       |            |           |       |
 | Slice Registers                            | 3853 |     0 |          0 |    106400 |  3.62 |
-|   Register driven from within the Slice    | 1980 |       |            |           |       |
-|   Register driven from outside the Slice   | 1873 |       |            |           |       |
-|     LUT in front of the register is unused | 1536 |       |            |           |       |
-|     LUT in front of the register is used   |  337 |       |            |           |       |
+|   Register driven from within the Slice    | 1956 |       |            |           |       |
+|   Register driven from outside the Slice   | 1897 |       |            |           |       |
+|     LUT in front of the register is unused | 1546 |       |            |           |       |
+|     LUT in front of the register is used   |  351 |       |            |           |       |
 | Unique Control Sets                        |  204 |       |          0 |     13300 |  1.53 |
 +--------------------------------------------+------+-------+------------+-----------+-------+
 * * Note: Available Control Sets calculated as Slice * 1, Review the Control Sets Report for more information regarding control sets.
@@ -128,8 +128,8 @@ Table of Contents
 |          Site Type          | Used | Fixed | Prohibited | Available |  Util% |
 +-----------------------------+------+-------+------------+-----------+--------+
 | Bonded IOB                  |    4 |     4 |          0 |       125 |   3.20 |
-|   IOB Master Pads           |    3 |       |            |           |        |
-|   IOB Slave Pads            |    1 |       |            |           |        |
+|   IOB Master Pads           |    2 |       |            |           |        |
+|   IOB Slave Pads            |    2 |       |            |           |        |
 |   IOB Flip Flops            |    3 |     3 |            |           |        |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |   0.00 |
 | Bonded IOPADs               |  130 |   130 |          0 |       130 | 100.00 |
@@ -188,7 +188,7 @@ Table of Contents
 +----------+------+----------------------+
 | Ref Name | Used |  Functional Category |
 +----------+------+----------------------+
-| FDRE     | 3564 |         Flop & Latch |
+| FDRE     | 3563 |         Flop & Latch |
 | LUT6     |  996 |                  LUT |
 | LUT3     |  474 |                  LUT |
 | LUT4     |  447 |                  LUT |
@@ -200,7 +200,7 @@ Table of Contents
 | BIBUF    |  130 |                   IO |
 | CARRY4   |   74 |           CarryLogic |
 | LUT1     |   70 |                  LUT |
-| FDSE     |   67 |         Flop & Latch |
+| FDSE     |   68 |         Flop & Latch |
 | MUXF7    |   59 |                MuxFx |
 | RAMD32   |   56 |   Distributed Memory |
 | FDPE     |   41 |         Flop & Latch |
