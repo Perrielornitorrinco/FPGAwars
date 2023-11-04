@@ -1,0 +1,565 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.15 seconds; current allocated memory: 115.336 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (sensor.cpp:67:26)
+WARNING: [HLS 207-997] '/*' within block comment (sensor.cpp:78:28)
+WARNING: [HLS 207-997] '/*' within block comment (sensor.cpp:115:26)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:5:36)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:5:66)
+ERROR: [HLS 207-3801] unknown type name 'uint8_t' (sensor.cpp:8:5)
+ERROR: [HLS 207-3801] unknown type name 'uint8_t' (sensor.cpp:9:5)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:20:31)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint32_t' (sensor.cpp:20:62)
+ERROR: [HLS 207-3801] unknown type name 'uint8_t' (sensor.cpp:24:5)
+ERROR: [HLS 207-3801] unknown type name 'uint32_t' (sensor.cpp:33:5)
+ERROR: [HLS 207-3801] unknown type name 'uint32_t' (sensor.cpp:34:5)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:45:35)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint32_t' (sensor.cpp:45:65)
+WARNING: [HLS 207-5544] invalid variable expr  (sensor.cpp:46:33)
+WARNING: [HLS 207-5544] invalid variable expr  (sensor.cpp:47:33)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:50:14)
+ERROR: [HLS 207-2916] C++ requires a type specifier for all declarations (sensor.cpp:50:23)
+WARNING: [HLS 207-5544] invalid variable expr  (sensor.cpp:51:29)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.733 seconds; current allocated memory: 0.352 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.076 seconds; peak allocated memory: 115.664 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.1 seconds; current allocated memory: 111.227 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (sensor.cpp:116:26)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:6:36)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:6:66)
+ERROR: [HLS 207-3801] unknown type name 'uint8_t' (sensor.cpp:9:5)
+ERROR: [HLS 207-3801] unknown type name 'uint8_t' (sensor.cpp:10:5)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:21:31)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint32_t' (sensor.cpp:21:62)
+ERROR: [HLS 207-3801] unknown type name 'uint8_t' (sensor.cpp:25:5)
+ERROR: [HLS 207-3801] unknown type name 'uint32_t' (sensor.cpp:34:5)
+ERROR: [HLS 207-3801] unknown type name 'uint32_t' (sensor.cpp:35:5)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:46:35)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint32_t' (sensor.cpp:46:65)
+WARNING: [HLS 207-5544] invalid variable expr  (sensor.cpp:47:33)
+WARNING: [HLS 207-5544] invalid variable expr  (sensor.cpp:48:33)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint8_t' (sensor.cpp:51:14)
+ERROR: [HLS 207-2916] C++ requires a type specifier for all declarations (sensor.cpp:51:23)
+WARNING: [HLS 207-5544] invalid variable expr  (sensor.cpp:52:29)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.094 seconds; current allocated memory: 0.324 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 14.841 seconds; peak allocated memory: 111.512 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.094 seconds; current allocated memory: 105.875 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (sensor.cpp:117:26)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint32_t' (sensor.cpp:22:65)
+ERROR: [HLS 207-3801] unknown type name 'uint32_t' (sensor.cpp:35:5)
+ERROR: [HLS 207-3801] unknown type name 'uint32_t' (sensor.cpp:36:5)
+ERROR: [HLS 207-3776] use of undeclared identifier 'uint32_t' (sensor.cpp:47:68)
+WARNING: [HLS 207-5544] invalid variable expr  (sensor.cpp:49:33)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.608 seconds; current allocated memory: 0.461 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 14.78 seconds; peak allocated memory: 106.340 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.123 seconds; current allocated memory: 105.758 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (sensor.cpp:117:26)
+WARNING: [HLS 207-5292] unused parameter 'cmd_in' (sensor.cpp:7:49)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.998 seconds; current allocated memory: 106.262 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named 'sensor'
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 11.905 seconds; current allocated memory: 0.523 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 24.596 seconds; peak allocated memory: 106.273 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.095 seconds; current allocated memory: 106.004 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (sensor.cpp:117:26)
+WARNING: [HLS 207-5292] unused parameter 'cmd_in' (sensor.cpp:7:49)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.313 seconds; current allocated memory: 106.715 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:228)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base(int)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, false>::ssdm_int(unsigned int)' into 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' into 'ap_uint<32>::ap_uint<10>(ap_uint<10> const&)'
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::operator unsigned long long() const' into 'double operator*<32, false>(ap_int_base<32, false> const&, double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1571:408)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi12ELb1EEC2EDq12_i' into 'ap_int_base<12, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<64, true>::ssdm_int(long)' into 'ap_int_base<64, true>::ap_int_base(long)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:216:68)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi65ELb1EEC2EDq65_i' into 'ap_int_base<65, true>::ap_int_base<12, true>(ap_int_base<12, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi65ELb1EEC2EDq65_i' into 'ap_int_base<65, true>::ap_int_base<64, true>(ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi65ELb1EEC2EDq65_i' into 'ap_int_base<65, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<65, true>::ap_int_base<12, true>(ap_int_base<12, true> const&)' into 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<65, true>::ap_int_base(int)' into 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<65, true>::ap_int_base<64, true>(ap_int_base<64, true> const&)' into 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, true>::ap_int_base(long)' into 'ap_int_base<12, true>::RType<($_0)64, true>::minus operator-<12, true>(ap_int_base<12, true> const&, long)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1635:1548)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' into 'ap_int_base<12, true>::RType<($_0)64, true>::minus operator-<12, true>(ap_int_base<12, true> const&, long)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1635:1546)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<32, false>(ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base(int)' into 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<32, false>(ap_int_base<32, false> const&)' into 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<32, false>::operator-() const' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:895:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' into 'ap_int_base<32, false>::operator-() const' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:895:37)
+INFO: [HLS 214-131] Inlining function 'doubleToRawBits(double)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:292:13)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>& ap_int_base<32, false>::operator=<33, true>(ap_int_base<33, true> const&)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:344:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::operator-() const' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:344:25)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>& ap_int_base<12, true>::operator=<65, true>(ap_int_base<65, true> const&)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:297:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>::RType<($_0)64, true>::minus operator-<12, true>(ap_int_base<12, true> const&, long)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:297:15)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>::ap_int_base(int)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:295:37)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::ap_int_base(double)' into 'ap_uint<32>::ap_uint(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int.h:294:39)
+INFO: [HLS 214-131] Inlining function 'double operator*<32, false>(ap_int_base<32, false> const&, double)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:37:39)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:56)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:39)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:50)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:57)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:68)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:40)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:51)
+INFO: [HLS 214-178] Inlining function 'ap_uint<32>::ap_uint(double)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:22:0)
+INFO: [HLS 214-178] Inlining function 'spi_communication(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<8>, 0>&)' into 'sensor' (sensor.cpp:47:0)
+INFO: [HLS 214-178] Inlining function 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' into 'sensor' (sensor.cpp:47:0)
+WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'cmd_in' (sensor.cpp:47:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 6.933 seconds; current allocated memory: 108.051 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.005 seconds; current allocated memory: 108.117 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.415 seconds; current allocated memory: 122.270 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.251 seconds; current allocated memory: 135.062 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (sensor.cpp:47:16) to (sensor.cpp:60:1) in function 'sensor'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.737 seconds; current allocated memory: 166.613 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.305 seconds; current allocated memory: 170.570 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sensor' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.975 seconds; current allocated memory: 170.570 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.462 seconds; current allocated memory: 170.570 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/cmd_in' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/result_out' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'sensor' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in_TDATA' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in_TVALID' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in_TREADY' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_7_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'ddiv_64ns_64ns_64_59_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'uitodp_32ns_64_6_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sensor'.
+INFO: [RTMG 210-285] Implementing FIFO 'data_out_U(sensor_fifo_w8_d7_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.898 seconds; current allocated memory: 172.875 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.791 seconds; current allocated memory: 178.473 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.567 seconds; current allocated memory: 181.207 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sensor.
+INFO: [VLOG 209-307] Generating Verilog RTL for sensor.
+INFO: [HLS 200-789] **** Estimated Fmax: 137.04 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 6 seconds. CPU system time: 1 seconds. Elapsed time: 20.772 seconds; current allocated memory: 75.516 MB.
+INFO: [HLS 200-112] Total CPU user time: 8 seconds. Total CPU system time: 2 seconds. Total elapsed time: 33.637 seconds; peak allocated memory: 181.578 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.123 seconds; current allocated memory: 106.309 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'cmd_in' (sensor.cpp:7:49)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.202 seconds; current allocated memory: 106.844 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:228)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base(int)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, false>::ssdm_int(unsigned int)' into 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' into 'ap_uint<32>::ap_uint<10>(ap_uint<10> const&)'
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::operator unsigned long long() const' into 'double operator*<32, false>(ap_int_base<32, false> const&, double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1571:408)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi12ELb1EEC2EDq12_i' into 'ap_int_base<12, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<64, true>::ssdm_int(long)' into 'ap_int_base<64, true>::ap_int_base(long)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:216:68)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi65ELb1EEC2EDq65_i' into 'ap_int_base<65, true>::ap_int_base<12, true>(ap_int_base<12, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi65ELb1EEC2EDq65_i' into 'ap_int_base<65, true>::ap_int_base<64, true>(ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi65ELb1EEC2EDq65_i' into 'ap_int_base<65, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<65, true>::ap_int_base<12, true>(ap_int_base<12, true> const&)' into 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<65, true>::ap_int_base(int)' into 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<65, true>::ap_int_base<64, true>(ap_int_base<64, true> const&)' into 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<64, true>::ap_int_base(long)' into 'ap_int_base<12, true>::RType<($_0)64, true>::minus operator-<12, true>(ap_int_base<12, true> const&, long)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1635:1548)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>::RType<64, true>::minus operator-<12, true, 64, true>(ap_int_base<12, true> const&, ap_int_base<64, true> const&)' into 'ap_int_base<12, true>::RType<($_0)64, true>::minus operator-<12, true>(ap_int_base<12, true> const&, long)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1635:1546)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<32, false>(ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base(int)' into 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<32, false>(ap_int_base<32, false> const&)' into 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<32, false>::operator-() const' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:895:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::RType<32, false>::minus operator-<1, false, 32, false>(ap_int_base<1, false> const&, ap_int_base<32, false> const&)' into 'ap_int_base<32, false>::operator-() const' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:895:37)
+INFO: [HLS 214-131] Inlining function 'doubleToRawBits(double)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:292:13)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>& ap_int_base<32, false>::operator=<33, true>(ap_int_base<33, true> const&)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:344:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::operator-() const' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:344:25)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>& ap_int_base<12, true>::operator=<65, true>(ap_int_base<65, true> const&)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:297:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>::RType<($_0)64, true>::minus operator-<12, true>(ap_int_base<12, true> const&, long)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:297:15)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<12, true>::ap_int_base(int)' into 'ap_int_base<32, false>::ap_int_base(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:295:37)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::ap_int_base(double)' into 'ap_uint<32>::ap_uint(double)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int.h:294:39)
+INFO: [HLS 214-131] Inlining function 'double operator*<32, false>(ap_int_base<32, false> const&, double)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:37:39)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:56)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:39)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:36:50)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:57)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:68)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:40)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:35:51)
+INFO: [HLS 214-178] Inlining function 'ap_uint<32>::ap_uint(double)' into 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' (sensor.cpp:22:0)
+INFO: [HLS 214-178] Inlining function 'spi_communication(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<8>, 0>&)' into 'sensor' (sensor.cpp:47:0)
+INFO: [HLS 214-178] Inlining function 'process_data(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<32>, 0>&)' into 'sensor' (sensor.cpp:47:0)
+WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'cmd_in' (sensor.cpp:47:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 6.217 seconds; current allocated memory: 108.328 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.005 seconds; current allocated memory: 108.387 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.139 seconds; current allocated memory: 122.051 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.132 seconds; current allocated memory: 134.738 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (sensor.cpp:47:16) to (sensor.cpp:60:1) in function 'sensor'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 166.688 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 170.664 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sensor' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.361 seconds; current allocated memory: 170.664 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.753 seconds; current allocated memory: 170.664 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/cmd_in' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/result_out' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'sensor' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in_TDATA' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in_TVALID' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in_TREADY' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_7_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'ddiv_64ns_64ns_64_59_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'uitodp_32ns_64_6_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sensor'.
+INFO: [RTMG 210-285] Implementing FIFO 'data_out_U(sensor_fifo_w8_d7_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.702 seconds; current allocated memory: 172.836 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.857 seconds; current allocated memory: 178.266 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.821 seconds; current allocated memory: 181.281 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sensor.
+INFO: [VLOG 209-307] Generating Verilog RTL for sensor.
+INFO: [HLS 200-789] **** Estimated Fmax: 137.04 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4 seconds. CPU system time: 1 seconds. Elapsed time: 17.533 seconds; current allocated memory: 75.426 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 30.191 seconds; peak allocated memory: 181.766 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/Users/Irene/Desktop/FPGAWars/prueba2/hls
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -output C:/Users/Irene/Desktop/FPGAWars/prueba2/hls 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output C:/Users/Irene/Desktop/FPGAWars/prueba2/hls 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 61.916 seconds; current allocated memory: 7.105 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 74.626 seconds; peak allocated memory: 113.031 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/Users/Irene/Desktop/FPGAWars/prueba2/hls
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -output C:/Users/Irene/Desktop/FPGAWars/prueba2/hls -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./sensor/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name sensor sensor 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.109 seconds; current allocated memory: 105.449 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'cmd_in' (sensor.cpp:5:79)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.186 seconds; current allocated memory: 106.035 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:228)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base(int)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, false>::ssdm_int(unsigned int)' into 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' into 'ap_uint<32>::ap_uint<10>(ap_uint<10> const&)'
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:19:44)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:19:55)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:19:27)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:19:38)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:18:45)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:18:56)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:18:28)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:18:39)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'P' with compact=bit mode in 32-bits (sensor.cpp:5:0)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'T' with compact=bit mode in 32-bits (sensor.cpp:5:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'cmd_in' with compact=bit mode in 8-bits (sensor.cpp:5:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 8.833 seconds; current allocated memory: 107.246 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.006 seconds; current allocated memory: 107.246 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.388 seconds; current allocated memory: 116.379 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.415 seconds; current allocated memory: 123.055 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.373 seconds; current allocated memory: 149.082 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.362 seconds; current allocated memory: 151.168 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sensor' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.027 seconds; current allocated memory: 151.168 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.76 seconds; current allocated memory: 151.168 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/cmd_in' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/T' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/P' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sensor' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sensor'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 151.168 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.904 seconds; current allocated memory: 153.629 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.798 seconds; current allocated memory: 156.898 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sensor.
+INFO: [VLOG 209-307] Generating Verilog RTL for sensor.
+INFO: [HLS 200-789] **** Estimated Fmax: 287.60 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 24.412 seconds; current allocated memory: 51.645 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 2 seconds. Total elapsed time: 38.039 seconds; peak allocated memory: 157.168 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/Users/Irene/Desktop/FPGAWars/prueba2/hls
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -output C:/Users/Irene/Desktop/FPGAWars/prueba2/hls -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./sensor/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name sensor sensor 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.113 seconds; current allocated memory: 110.992 MB.
+INFO: [HLS 200-10] Analyzing design file 'sensor.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'cmd_in' (sensor.cpp:5:79)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.514 seconds; current allocated memory: 111.980 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:228)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb0EEC2EDq9_j' into 'ap_int_base<9, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi10ELb0EEC2EDq10_j' into 'ap_int_base<10, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<9, false>(ap_int_base<9, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base(int)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<10, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, false>::ssdm_int(unsigned int)' into 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' (C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::ap_int_base<10, false>(ap_int_base<10, false> const&)' into 'ap_uint<32>::ap_uint<10>(ap_uint<10> const&)'
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:19:44)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:19:55)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:19:27)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:19:38)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, false>::RType<8, false>::plus operator+<9, false, 8, false>(ap_int_base<9, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:18:45)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:18:56)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::plus operator+<8, false, 8, false>(ap_int_base<8, false> const&, ap_int_base<8, false> const&)' into 'sensor' (sensor.cpp:18:28)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'sensor' (sensor.cpp:18:39)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'P' with compact=bit mode in 32-bits (sensor.cpp:5:0)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'T' with compact=bit mode in 32-bits (sensor.cpp:5:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'cmd_in' with compact=bit mode in 8-bits (sensor.cpp:5:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 7.237 seconds; current allocated memory: 113.152 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.005 seconds; current allocated memory: 113.156 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 122.266 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 128.914 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.104 seconds; current allocated memory: 154.926 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.051 seconds; current allocated memory: 157.016 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sensor' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 157.016 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.063 seconds; current allocated memory: 157.016 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sensor' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/cmd_in' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/T' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sensor/P' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sensor' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Port 'sensor/cmd_in' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sensor'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 157.016 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.475 seconds; current allocated memory: 159.754 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.578 seconds; current allocated memory: 162.781 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sensor.
+INFO: [VLOG 209-307] Generating Verilog RTL for sensor.
+INFO: [HLS 200-789] **** Estimated Fmax: 287.60 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 17.397 seconds; current allocated memory: 52.047 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 2 seconds. Total elapsed time: 31.39 seconds; peak allocated memory: 163.117 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/Users/Irene/Desktop/FPGAWars/prueba2/hls
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -output C:/Users/Irene/Desktop/FPGAWars/prueba2/hls -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./sensor/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name sensor sensor 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output C:/Users/Irene/Desktop/FPGAWars/prueba2/hls 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 19.058 seconds; current allocated memory: 7.582 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 32.173 seconds; peak allocated memory: 113.438 MB.

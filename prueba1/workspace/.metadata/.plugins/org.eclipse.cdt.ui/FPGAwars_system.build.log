@@ -1,0 +1,10 @@
+13:29:43 **** Build of configuration Debug for project FPGAwars_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 45530 C:/Users/Irene/workspace/Main_wrapper/export/Main_wrapper/Main_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/Irene/workspace/Main_wrapper/export/Main_wrapper/Main_wrapper.xpfm --sys_config Main_wrapper --bif C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars_system/Debug/system.bif --bitstream C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars/_ide/bitstream/Main_wrapper.bit --elf C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars/Debug/FPGAwars.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars/_ide/bitstream/Main_wrapper.bit
+Running C:/Xilinx/Vitis/2022.2/bin/bootgen  -image C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+13:29:56 Build Finished (took 12s.462ms)
+

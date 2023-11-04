@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "sensor",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/Users\/Irene\/Desktop\/FPGAWars\/prueba2\/hls\/sensor\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "sensor"
+              }]
+          }
+        },
+        {
+          "functionName": "sensor",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "C:\/Users\/Irene\/Desktop\/FPGAWars\/prueba2\/hls\/sensor\/solution1\/csynth.tcl",
+          "sourceLine": "14",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "sensor"
+              }]
+          }
+        }
+      ]
+    }]}

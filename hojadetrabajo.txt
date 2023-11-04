@@ -1,0 +1,33 @@
+Prueba 1: Iniciar con vivado y configurar con Vitis IDE (tools del propio Vivado)
+
+- No he sido capaz de saber si lo realizado en Vitis IDE esta implementado en Vivado
+- Las salidas para el sensor donde estan conectadas internamente? -> en el xdc:
+		set_property -dict { PACKAGE_PIN V18   IOSTANDARD LVCMOS33 } [get_ports {spi_rtl_ss_io[0]}]; #IO_L21N_T3_DQS_34 Sch=ar[9]
+		set_property -dict { PACKAGE_PIN T16   IOSTANDARD LVCMOS33 } [get_ports {spi_rtl_sck_io}]; #IO_L9P_T1_DQS_34 Sch=ar[10]
+		set_property -dict { PACKAGE_PIN R17   IOSTANDARD LVCMOS33 } [get_ports {spi_rtl_io1_io}]; #IO_L19N_T3_VREF_34 Sch=ar[11]
+		set_property -dict { PACKAGE_PIN P18   IOSTANDARD LVCMOS33 } [get_ports {spi_rtl_io0_io}]; #IO_L23N_T3_34 Sch=ar[12]
+	-> En el diagrama de bloques io son dos pines del bus spi_rtl
+- En la SD de la Pynq se carga: hwh, bit, tlc? ahi va lo desarrollado en el Vitis IDE???
+
+###############################################
+
+Prueba 2: Iniciar con Vitis HLS e importar ip a vivado (pasa todo a la PL), ejecutar desde jupyter
+
+- Importar código desarrollado para la prueba 1: (Actualmente comentado en el HLS al final del código)
+	-> En 1 es C en 2 es Cpp
+	-> refs a otros archivos generados automaticamente por el Vitis IDE
+- Crear código sencillo para hacer prueba de comunicación: (En el sensor cpp)
+	Problemas:
+	-> El código se hace para implementar en diagrama de bloques con axi_quad_SPI -> ¿Cómo unirlos?¿Compatibilidades?
+	-> Si el código se hace con comunicación SPI y se prescinde del axi quad SPI -> ¿Cómo se hace para añadir en código la configuración hecha en el axiquadspi*?
+
+*
+Transaction Width 8
+Frequency Ratio 16*8
+
+
+####################
+
+Otras notas
+	-> Como usar axi quad spi con otra ip? o si se usa otra ip se quita esa?
+	-> Con punteros se manda la info fuera de una ip en jupyter
