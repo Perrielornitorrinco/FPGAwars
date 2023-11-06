@@ -1,0 +1,1 @@
+{"bitfile_name": "/home/xilinx/pynq/overlays/prueba2sensor/sensor.bit", "active_name": "Pynq-Z2", "timestamp": "2022/10/22 8:5:53 +914689", "bitfile_hash": "f31738b1b10743fc2b226708e5732018523c09b1", "shutdown_ips": {}, "psddr": {"raw_type": 1, "used": 1, "base_address": 0, "size": 268435456, "type": "DDR4", "streaming": false, "idx": 0, "tag": "PSDDR"}}

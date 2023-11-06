@@ -1,16 +1,9 @@
 Nothing to build in platform 'Main_wrapper'
 
-13:29:42 **** Incremental Build of configuration Debug for project FPGAwars ****
+08:06:37 **** Incremental Build of configuration Debug for project FPGAwars ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
 make[1]: Nothing to be done for 'main-build'.
-13:29:43 **** Build of configuration Debug for project FPGAwars_system ****
-make all 
-Generating bif file for the system project
-generate_system_bif.bat 45530 C:/Users/Irene/workspace/Main_wrapper/export/Main_wrapper/Main_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars_system/Debug/system.bif
-sdcard_gen --xpfm C:/Users/Irene/workspace/Main_wrapper/export/Main_wrapper/Main_wrapper.xpfm --sys_config Main_wrapper --bif C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars_system/Debug/system.bif --bitstream C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars/_ide/bitstream/Main_wrapper.bit --elf C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars/Debug/FPGAwars.elf,ps7_cortexa9_0
-creating BOOT.BIN using C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars/_ide/bitstream/Main_wrapper.bit
-Running C:/Xilinx/Vitis/2022.2/bin/bootgen  -image C:/Users/Irene/Desktop/FPGAWars/prueba1/workspace/FPGAwars_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
